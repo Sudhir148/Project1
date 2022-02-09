@@ -1,0 +1,277 @@
+
+
+#header{
+    height: 60px;
+    background-color: #f5f5f5; 
+}
+.subhead{
+    margin-left: 2%;
+    margin-top: 0.9%;
+    position: absolute;
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.slogo{
+    width:100%;
+
+}
+#social{
+    float: right;
+    margin-right: 1;
+    margin-top: 0.5%;
+}
+.buttonn{
+    float:right; margin-right: 1%; margin-top: 0.8%;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 42px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram{
+      background-color:#dd2a7b;
+      color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#search{
+    height: 400px;
+    background-image: url(image4/food-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: green;
+    animation: movelogo 20s infinite;
+
+}
+#logo>span{
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+@keyframes movelogo {
+    0% {margin-left: 45%;}
+    25% {margin-left: 40%;}
+    50% {margin-left: 47%;}
+    75% {margin-left: 40%;}
+    100% {margin-left: 47%;}
+}
+
+#heading{
+    font-size: 45px;
+    margin-left:29%;
+    margin-top:13% ;
+    position: absolute;
+    color: white;
+}
+#QuickSearch{
+    height: 600px;
+    background-color: #f5f5f5;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 29%;
+    margin-top: 19%;
+    position: absolute;
+}
+select{
+    height: 60px;
+    width: 35%;
+}
+.SelectReas{
+    width: 50%;
+}
+.slogo{
+    width:100%;
+
+ 
+    
+}
+#social{
+    float: right;
+    margin-right: 1%;
+}
+
+.quickheading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4d3f3f;
+    margin-left: 8%;
+    display: block;
+    
+}
+.quickheading:hover{
+    color: green;
+    font-size: 35px;
+}
+
+.quicksubheading{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8%;
+    line-height: 2;
+    margin-top:  1%;
+}
+.maintile{
+    height:400px;
+    width: 90%;
+    margin-left:5%;
+    margin-top: 3%;
+    
+}
+
+.tilecontainer{
+    height: 180px;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    box-shadow: 10px 20px 10px gray;
+}
+
+.tilecontainer:hover{
+    transform: scale(1.1);
+}
+
+ 
+.tileComponent1{
+    width:50%;
+    float: left;
+    height:180px;
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+}
+
+.componentHeading > a{
+    color:#ac2e31 !important;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(181, 183, 184);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(243, 225, 242);
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 27%;
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(237, 245, 218);
+    }
+    .tileContainer{
+        width:43%;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 18%;
+        margin-top: 24%;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 34%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 221, 202);
+    }
+    .tileContainer{
+        width:90%;
+    }
+    #logo{
+        margin-left: 34%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 27%;
+        font-size:35px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 38%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(183, 233, 195);
+    }
+    #heading{
+        margin-left: 0%;
+        margin-top: 31%;
+        font-size:34px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 45%;
+    }
+}
